@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pour Toi Mon Amour</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="content">
+    <h1>Je t’aime</h1>
+    <p>Chaque battement de mon cœur te murmure combien tu comptes pour moi.</p>
+    <img src="photo.jpg" alt="Ma chérie" class="photo">
+    <button onclick="document.getElementById('love-audio').play()" class="btn-audio">
+      Écouter notre musique
+    </button>
+    <audio id="love-audio">
+      <source src="musique.mp3" type="audio/mpeg">
+      Ton navigateur ne supporte pas l'audio.
+    </audio>
+  </div>
+  <script src="coeurs.js"></script>
+</body>
+</html>
